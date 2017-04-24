@@ -1,0 +1,77 @@
+{
+    "author": "tschrock123@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "braeburn",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Braeburn",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/braeburn_color.png",
+                    "name": "BG_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Bluetooth_Color.png",
+                    "name": "BLTH_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0c.png",
+                    "name": "BATT_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0.png",
+                    "name": "BATT_BAW",
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/Bluetooth_BaW.png",
+                    "name": "BLTH_BAW",
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/braeburn_baw.png",
+                    "name": "BG_BAW",
+                    "type": "png-trans"
+                },
+                {
+                    "file": "fonts/Roboto-Bold-Minified.ttf",
+                    "name": "ROBOTO_BOLD_18",
+                    "trackingAdjust": -1,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Roboto-Bold-Minified.ttf",
+                    "name": "ROBOTO_BOLD_60",
+                    "trackingAdjust": -2,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Roboto-Bold-Minified.ttf",
+                    "name": "ROBOTO_BOLD_36",
+                    "trackingAdjust": -2,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "5ab22132-5ecd-40be-aafd-e081d204c928",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
